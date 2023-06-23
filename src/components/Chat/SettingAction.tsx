@@ -76,8 +76,9 @@ export default function SettingAction() {
                 }}
               />
             </SettingItem>
-            <SettingItem icon="i-carbon:api" label="OpenAI Key">
-              <input
+            <SettingItem icon="i-carbon:api" label="不支持外部OpenAI Key，如有需要请联系管理员">
+
+{/*                            <input
                 type="password"
                 value={store.globalSettings.APIKey}
                 class="input-box"
@@ -89,6 +90,7 @@ export default function SettingAction() {
                   )
                 }}
               />
+              */}
             </SettingItem>
             <SettingItem icon="i-carbon:keyboard" label="Enter 键发送消息">
               <SwitchButton
@@ -143,12 +145,12 @@ export default function SettingAction() {
                 options={[
                   {
                     value: "gpt-3.5",
-                    label: "gpt-3.5(auto)"
+                    label: "gpt-3.5(auto-支持16k)"
                   },
-                  {
-                    value: "gpt-4",
-                    label: "gpt-4(auto)"
-                  }
+                  // {
+                  //   value: "gpt-4",
+                  //   label: "gpt-4(auto)"
+                  // }
                 ]}
               />
             </SettingItem>
