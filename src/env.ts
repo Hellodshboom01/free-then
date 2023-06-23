@@ -24,7 +24,7 @@ export const defaultEnv = {
 - 默认提供最新的gpt-3.5-turbo-16k模型，[点击进群免费获取密码](https://image.cdn.dshboom.top/post/202306232037165.png)。
 - 为保障正常请求，本网站关闭了自填key的通道。如果你有相关需要，可以邮箱联系dshboom@outlook.com
 - [[Shift]] + [[Enter]] 换行。开头输入 [[/]] 搜索 Prompt 预设。[[↑]] 可编辑最近一次提问。
-- [点此处获取更多使用技巧](https://github.com/dshboom/free-gpt-dshboom#%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7)
+- [点此处获取更多使用技巧](https://image.cdn.dshboom.top/post/ChatGPT-Vercel_README.html)
 `,
   CLIENT_MAX_INPUT_TOKENS: {
     "gpt-3.5": 16 * 1000,
