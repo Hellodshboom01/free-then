@@ -76,7 +76,7 @@ export default function SettingAction() {
                 }}
               />
             </SettingItem>
-            <SettingItem icon="i-carbon:api" label="不支持外部OpenAI Key，如有需要请联系管理员">
+            <SettingItem icon="i-carbon:api" label="不支持外部API，如有需要请联系管理员">
 
 {/*                            <input
                 type="password"
@@ -145,7 +145,7 @@ export default function SettingAction() {
                 options={[
                   {
                     value: "gpt-3.5",
-                    label: "gpt-3.5(auto-支持16k)"
+                    label: "gpt-3.5(16k)"
                   },
                   // {
                   //   value: "gpt-4",
