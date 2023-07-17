@@ -19,12 +19,11 @@ export const defaultEnv = {
     model: "gpt-3.5" as SimpleModel
   },
   CLIENT_DEFAULT_MESSAGE: `Powered by OpenAI Vercel
-- 这里是dshboom的AI助手，免费为大家提供服务。
-- 网站维护和API费用由dshboom承担，API很贵，你可以😀[请我喝杯咖啡](https://image.cdn.dshboom.top/post/202306232035402.png)谢谢啦！
-- 默认提供最新的gpt-3.5-turbo-16k模型，[点击进群免费获取密码](https://image.cdn.dshboom.top/post/202306232037165.png)。
+- 默认提供最新的gpt-3.5-turbo-16k模型。
 - 为保障正常请求，本网站关闭了自填key的通道。如果你有相关需要，可以邮箱联系dshboom@outlook.com
 - [[Shift]] + [[Enter]] 换行。开头输入 [[/]] 搜索 Prompt 预设。[[↑]] 可编辑最近一次提问。
-- [点此处获取更多使用技巧](https://image.cdn.dshboom.top/post/ChatGPT-Vercel_README.html)
+- [点此处获取更多使用技巧](https://image.cdn.dshboom.top/post/gpt_use.html)
+- 网站维护和API费用由dshboom承担，API很贵，你可以😀[请我喝杯咖啡](https://image.cdn.dshboom.top/post/202306232035402.png)谢谢啦！
 `,
   CLIENT_MAX_INPUT_TOKENS: {
     "gpt-3.5": 16 * 1000,
